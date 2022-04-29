@@ -1,0 +1,8 @@
+/.coverage
+/.mypy_cache/
+/.tox/
+/build/
+/coverage.xml
+/doc/_build/
+__pycache__/
+/dist/
