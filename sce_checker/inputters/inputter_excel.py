@@ -96,7 +96,7 @@ class InputterExcel:
                 try:
                     value = float(self.cell(row, consts.XLSM_COL_NAMES_START - 2))
                 except ValueError:
-                    pass # TODO: raise custom error
+                    raise ValueError(f'Wrong grade at cell col={col}, row={row}')
                 titles = (self.cell(row, col) for col in sections_range)
                 error = self.cell(row, consts.XLSM_COL_NAMES_START - 1)
                 comment.append(titles, ErrorComment(value, error))
