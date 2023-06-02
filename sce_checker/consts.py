@@ -9,6 +9,7 @@ XLSM_ROW_TITLE_TOTAL_MARKS = 'Total Mark'
 XLSM_ROW_TITLE_CLEAR_CHAR = 'Clear Char'
 
 CSV_COL_TITLE_NAME = 'שם מלא'
+CSV_COL_TITLE_GROUP = 'קבוצה'
 CSV_COL_TITLE_GRADE = 'ציונים'
 CSV_COL_TITLE_COMMENTS = 'הערות למשוב'
 CSV_COL_TITLE_LAST_UPDATE = 'עדכון אחרון (ציון)'
